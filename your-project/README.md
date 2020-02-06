@@ -16,23 +16,24 @@
 <a name="project-description"></a>
 
 ## Project Description
-Our project concerns an analysis about the movie industry in a few key aspects, which are:
+Our project consist of an analysis about the movie industry in a few key aspects, which are:
 - The budget;
 - The gross revenue;
-- The movie ratings from IMDB and Rotten Tomatoes.
+- The movie ratings from IMDB and Rotten Tomatoes;
+- The Academy Award-winning films.
 
-After analyzing the data we gathered we hope to show whether there is a correlation with the amount of money invested into making the movie and the revenue/ratings it got from the audience.
+After analyzing the data we gathered we hope to show whether there is a correlation with the amount of money invested into making the movie, the awards won and the revenue/ratings it got from the audience.
 
 <a name="hypotheses-/-questions"></a>
 
 ## Hypotheses / Questions
-Our questions, as previously stated above, are about investigating whether there is a correlation with the movie's budget and the public's acceptance of it, in the form of user rating data from IMDB and Rotten Tomatoes, as well as the movie's revenue.
+Our questions, as stated above, are about investigating whether there is a correlation with the movie's budget and the public's acceptance of it, in the form of user rating data from IMDB and Rotten Tomatoes, as well as the movie's revenue and awards won.
 
 <a name="dataset"></a>
 
 ## Dataset
 The datasets we used came from different places and different methods.
-We got a dataset from Kaggle with many movies listed in a huge time range with other information like the movie's name, budget, gross revenue, genre, release date, IMDB score, among others.
+We got a dataset from Kaggle with many movies listed in a huge time range with other information like the movie's name, budget, gross revenue in the USA, genre, release date, IMDB score, among others.
 
 We also scraped Wikipedia for a table regarding the list of Academy Award-winning films.
 And finally, we also got another dataset from Kaggle with information from Rotten Tomatoes, which gave us the user rating from their website, which we used to compare the user ratings from the different websites.
@@ -50,8 +51,8 @@ Our workflow consisted of:
 - Getting the datasets from Kaggle about the movie data and Rotten Tomatoes rating;
 - Scraping the Wikipedia page
 - Importing all the files into Jupyter and starting the cleaning and processing of all the data;
-- After all that was done we started removing outliers and merging the datasets together to see what conclusions we could extract from our data;
-- Having all the data clean and processed we began working on the visualization part of the project and started plotting;
+- After all that we started merging the datasets together and removing outliers to see what conclusions we could extract from our data;
+- Having all the data cleaned and processed we began working on the visualization part of the project and started plotting;
 - The last step was creating a Canva presentation.
 
 <a name="organization"></a>
